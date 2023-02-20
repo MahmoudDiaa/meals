@@ -6,8 +6,4 @@ class GetMeals(private val mealsRepo:MealsRepo) {
 
     suspend operator fun  invoke() = mealsRepo.getMealsFromRemote()
 
-    fun s(w:Array<Int>){
-        w.fo
-
-    }
 }
